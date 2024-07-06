@@ -1,0 +1,49 @@
+
+#all-emp-data{
+    text-align: center;
+    border-top: 1px solid black;
+    margin: 5px 0;
+}
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    /* margin-top: 20px; */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+table th, table td {
+    text-align: center;
+}
+
+.edit-btn{
+    padding: 4px 6px;
+    border-radius: 6px;
+    background-color: transparent;
+    margin: 5px 8px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+}
